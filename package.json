@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Korabi-dev/Math-functions.js/issues"
   },
-  "homepage": "https://github.com/Korabi-dev/Math-functions.js#readme"
+  "homepage": "https://github.com/Korabi-dev/Math-functions.js#readme",
+  "dependencies": {
+    "readme-md-generator": "^1.0.0"
+  }
 }
