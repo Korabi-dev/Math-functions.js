@@ -1,7 +1,16 @@
 module.exports = {
     getPercentage: function(value, total) {
-       if(!typeof value == "number") throw new TypeError("Value must be of type number.")
-       if(!typeof total == "number") throw new TypeError("Total must be of type number.")
        return (value / total) * 100 
+    },
+    random: function(min, max){
+        if(!min) min = 0
+        if(!max) max = 999999**2
+        return Math.random() * (max - min + 1) + min;
+    },
+    evaluate: async function(expression){
+        const r = /[a-zA-Z]/g
+        const v = String(expression)
+        if(r.test(v) == true) throw new SyntaxError("Expression shall not contain a string value.")
+        return eval(v)
     }
 }
