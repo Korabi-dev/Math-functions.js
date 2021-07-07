@@ -19,13 +19,4 @@ const functions = {
     } 
 }
 
-
-class MathClient {
-super(){
-    this.root = functions.root
-    this.multipleOf = functions.multipleOf
-    this.evaluate = functions.evaluate
-    this.random = functions.random
-    this.getPercentage = functions.getPercentage
-}
-}
+module.exports = functions
