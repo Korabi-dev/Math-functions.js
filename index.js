@@ -12,5 +12,8 @@ module.exports = {
         const v = String(expression)
         if(r.test(v) == true) throw new SyntaxError("Expression shall not contain a string value.")
         return eval(v)
+    },
+    multipleOf: async function(basenum,num){
+        return num % basenum ? false : true
     }
 }
