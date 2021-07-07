@@ -9,7 +9,7 @@ module.exports = {
     },
     evaluate: async function(expression){
         const r = /[a-zA-Z]/g
-        const v = String(expression).replace("pi",Math.PI)
+        const v = String(expression.toLowerCase().replace("pi", Math.PI))
         if(r.test(v) == true) throw new SyntaxError("Expression shall not contain a string value.")
         return eval(v)
     },
