@@ -1,6 +1,6 @@
 {
   "name": "@korabi20/math-functions",
-  "version": "1.0.9",
+  "version": "1.2.0",
   "description": "A cool advanced math functions library",
   "main": "index.js",
   "scripts": {
