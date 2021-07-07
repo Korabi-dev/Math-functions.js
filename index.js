@@ -1,6 +1,6 @@
 module.exports = {
     /**
-     Get the percentage of two numbers
+     Get the percentage of a number from a total value
     **/
     getPercentage: async function(value, total) {
        return (value / total) * 100 
@@ -12,7 +12,7 @@ module.exports = {
         return Math.random() * (max - min + 1) + min;
     },
     /**
-      idk how to explain this
+      Evaluate a mathmatical expression
     **/
     evaluate: async function(expression){
         const r = /[a-zA-Z]/g
