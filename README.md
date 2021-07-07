@@ -9,9 +9,6 @@
   <a href="https://github.com/Korabi-dev/Math-functions.js/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/Korabi-dev/Math-functions.js/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Korabi-dev/@korabi20/math-functions" />
-  </a>
 </p>
 
 > An advanced math functions library
