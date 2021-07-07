@@ -18,7 +18,7 @@
 ## Install
 
 ```sh
-npm install
+npm install @korabi20/math-functions
 ```
 
 ## Author
