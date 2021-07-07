@@ -17,5 +17,8 @@ module.exports = {
     },
     multipleOf: async function(basenum,num){
         return num % basenum ? false : true
-    }
+    },
+    root: async function(number) {
+        return Math.sqrt(number)
+    } 
 }
