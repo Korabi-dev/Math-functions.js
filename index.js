@@ -1,8 +1,8 @@
 module.exports = {
-    getPercentage: function(value, total) {
+    getPercentage: async function(value, total) {
        return (value / total) * 100 
     },
-    random: function(min, max){
+    random: async function(min, max){
         if(!min) min = 0
         if(!max) max = 999999**2
         return Math.random() * (max - min + 1) + min;
