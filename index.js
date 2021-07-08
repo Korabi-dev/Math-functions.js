@@ -1,4 +1,7 @@
 const functions = {
+    format: async function(number){
+       return parseInt(number.toString().split("").reverse().join("").match(new RegExp('.{1,' + 3 + '}', 'g')).split("").reverse().join(""));
+    },
     getPercentage: async function(value, total) {
        return (value / total) * 100 
     },
